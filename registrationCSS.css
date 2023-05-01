@@ -1,0 +1,141 @@
+#register{
+    padding: 20px;
+    border: solid black 1px;
+}
+
+body{
+    margin: 0;
+}
+
+.rightSided{
+    float: right;
+}
+
+#main {
+    background-image: url('Resources/arcade-unsplash.jpg');
+    background-position: center center;
+    background-size: 100%;
+    width: 100%;
+    height: 95vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#main div {
+    background-color: blue;
+    border-radius: 10px;
+    max-width: 600px;
+    text-align: center;
+}
+
+#main button {
+    font-size: 18px;
+    background-color: lightblue;
+    border-radius: 5px;
+}
+
+#main input {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 18px;
+    background-color: lightblue;
+    border-radius: 5px;
+    padding: 3px;
+}
+
+::placeholder{
+    text-align: center;
+}
+.text{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 24px;
+    color: white;
+}
+
+#error{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 12px;
+    color: white;
+}
+
+#main select {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 18px;
+    background-color: lightblue;
+    border-radius: 5px;
+}
+
+#form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.carousel div{
+    display: flex;
+}
+
+.carousel button{
+    font-size: 24px;
+    font-weight: bold;
+    background-color: lightblue;
+    padding: 2px;
+    box-shadow: 0 0 2px;
+    border-radius: 2px;
+}
+
+.selected{
+    color: white;
+    margin: 5px;
+    font-size: 24px;
+    width: 100px;
+}
+
+.selectSection{
+    justify-content: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.heading{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 12px;
+    color: white;
+}
+
+#emoji{
+    display: flex;
+    width: 40px;
+    height: 40px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.image {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+}
+
+.image1 {
+    z-index: 0;
+}
+
+.image2 {
+    z-index: 1;
+}
+
+.image3 {
+    z-index: 2;
+}
+
+#submit{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}

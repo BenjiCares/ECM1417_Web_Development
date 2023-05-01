@@ -1,0 +1,54 @@
+.topNav{
+    background-color: blue;
+    align-items: center;
+    height: 5vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+.topNav a{
+    color: White;
+    font-family: Verdana sans-serif;
+    font-size: 12px;
+    padding: 19px 15px;
+    text-decoration: none;
+}
+
+#home{
+    order: 1;
+}
+
+body{
+    margin: 0;
+}
+
+.rightSided{
+    order: 2;
+    padding-right:20px;
+    display: flex;
+}
+
+#emoji {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 15px;
+}
+
+.image {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+}
+
+.image1 {
+    z-index: 0;
+}
+
+.image2 {
+    z-index: 1;
+}
+
+.image3 {
+    z-index: 2;
+}

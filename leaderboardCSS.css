@@ -1,0 +1,49 @@
+
+body{
+    margin: 0;
+}
+
+.rightSided{
+    float: right;
+}
+
+#main {
+    background-image: url('Resources/arcade-unsplash.jpg');
+    background-position: center center;
+    background-size: 100%;
+    width: 100%;
+    height: 95vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#leaderboard-wrapper{
+    padding: 10px;
+    background-color: grey;
+    box-shadow: 0 0 5px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    overflow: auto;
+    max-height: 500px;
+}
+
+#header{
+    text-align: center;
+}
+
+#header tr th{
+    background-color: blue;
+    border-radius: 3px;
+    padding: 6px;
+}
+
+#tableBody tr td{
+    text-align: center;
+    padding: 3px;
+}
+
+table{
+    border-spacing: 2px;
+}
